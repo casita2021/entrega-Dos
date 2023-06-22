@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("../img/cup-coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*HERADER*/
+header{
+    display: flex;
+    padding: 10px 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo p{
+   color:antiquewhite;
+   transition: all 0.3s;
+}
+
+.header .logo p:hover{
+    color:brown;
+    cursor:pointer;
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display:inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color:antiquewhite;
+}
+
+.header .nav-links a:hover{
+    font-size: 700;
+    color:brown;
+}
+
+.header .btn button{
+    color:antiquewhite;
+    padding: 10px 20px;
+    background-color: olive;
+    border:none;
+    border-radius: 50px;
+    cursor:pointer;
+    transform: all 0.3s;
+}
+
+.header .btn button:hover{
+    color:brown;
+    transform: scale(1.1);
+}
+
+.main{
+    height: 300px;
+    width: 100%;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
